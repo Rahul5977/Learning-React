@@ -8,7 +8,7 @@ root.render(
   <>
     <Fun/>
     <App />
-  </>
+  </> 
 
   
 );
