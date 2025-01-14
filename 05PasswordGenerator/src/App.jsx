@@ -59,7 +59,7 @@ function App() {
             <input
               type="range"
               min={8}
-              max={20}
+              max={50}
               value={lenght}
               className="cursor-pointer accent-orange-500"
               onChange={(e) => {
@@ -100,8 +100,6 @@ function App() {
           </div>
         </div>
       </div>
-
-
 
 
     </>
