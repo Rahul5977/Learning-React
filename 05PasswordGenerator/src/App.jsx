@@ -12,7 +12,7 @@ function App() {
     let str = "QWERTYUIOPASDFGHJKLZXCVBNqwertyuiopsdfghjklxcvbnm"
     if (numAllowed) str += "1234567890"
     if (charAllowed) str += "!@#$%^&*()_+="
-    for (let i = 1; i <=lenght; i++) {
+    for (let i = 1; i <=lenght; i++){
       let idx = Math.floor(Math.random() * str.length + 1)
       pass += str.charAt(idx);
     }
