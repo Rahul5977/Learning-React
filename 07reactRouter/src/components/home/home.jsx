@@ -1,18 +1,21 @@
 import React from "react";
 import { Link } from "react-router-dom";
+
 export default function Home() {
     return (
         <div className="mx-auto w-full max-w-7xl">
-            <aside className="relative overflow-hidden text-black rounded-lg sm:mx-16 mx-2 sm:py-16">
-                <div className="relative z-10 max-w-screen-xl px-4  pb-20 pt-10 sm:py-24 mx-auto sm:px-6 lg:px-8">
-                    <div className="max-w-xl sm:mt-1 mt-80 space-y-8 text-center sm:text-right sm:ml-auto">
-                        <h2 className="text-4xl font-bold sm:text-5xl">
+            {/* Hero Section */}
+            <aside className="relative text-white rounded-lg sm:mx-16 mx-2 sm:py-16 bg-gradient-to-br from-gray-300 via-gray-500 to-gray-600 shadow-lg">
+                <div className="relative z-10 max-w-screen-xl px-4 pb-20 pt-10 sm:py-24 mx-auto sm:px-6 lg:px-8">
+                    <div className="max-w-xl space-y-6 text-center sm:text-right sm:ml-auto">
+                        <h2 className="text-4xl font-extrabold sm:text-5xl">
                             Download My CV
-                            <span className="hidden sm:block text-4xl">Rahul Raj</span>
+                            <span className="hidden sm:block text-orange-400 text-4xl">Rahul Raj</span>
                         </h2>
 
+                        {/* Download Button */}
                         <Link
-                            className="inline-flex text-white items-center px-6 py-3 font-medium bg-orange-700 rounded-lg hover:opacity-75"
+                            className="inline-flex text-white items-center px-6 py-3 font-medium bg-orange-600 rounded-lg shadow-lg hover:bg-orange-700 transition duration-300"
                             to="/"
                         >
                             <svg
@@ -30,16 +33,23 @@ export default function Home() {
                     </div>
                 </div>
 
-                <div className="absolute inset-0 w-full sm:my-20 sm:pt-1 pt-12 h-full ">
-                    <img className="w-96" src="https://i.ibb.co/5BCcDYB/Remote2.png" alt="image1" />
+                {/* Profile Image */}
+                <div className="absolute inset-0 w-full flex justify-center items-center sm:pt-10 pt-20">
+                    <img
+                        className="w-48 h-48 sm:w-60 sm:h-60 rounded-full border-4 border-white shadow-lg object-cover"
+                        src="./Me.jpeg"
+                        alt="Profile"
+                    />
                 </div>
             </aside>
 
-            <div className="grid  place-items-center sm:mt-20">
-                <img className="sm:w-96 w-48" src="https://i.ibb.co/5BCcDYB/Remote2.png" alt="image2" />
+            {/* Remote Work Image */}
+            <div className="grid place-items-center sm:mt-40 mt-56">
+               
             </div>
 
-            <h1 className="text-center text-2xl sm:text-5xl py-10 font-medium">Rahul Raj</h1>
+            {/* Name Section */}
+            <h1 className="text-center text-3xl sm:text-5xl py-10 font-bold text-gray-800">Rahul Raj</h1>
         </div>
     );
 }
