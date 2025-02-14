@@ -71,7 +71,7 @@ export default function Footer() {
                 <div className="sm:flex sm:items-center sm:justify-between">
                     <span className="text-sm text-gray-500 sm:text-center">
                         Made with 💗 
-                        <a href="https://hiteshchoudhary.com/" className="hover:underline">
+                        <a href="https://www.linkedin.com/in/rahul-raj-iitbh/" className="hover:underline">
                          By Rahul Raj
                         </a>
                        
