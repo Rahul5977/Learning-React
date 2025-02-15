@@ -103,7 +103,7 @@ function App() {
         
         {/* Text Section */}
         <div className="md:w-1/2 p-4">
-          <h2 className="text-3xl font-bold text-blue-700 mb-4">Survey on Gaming Frequency Among Students</h2>
+          <h2 className="text-3xl font-bold text-blue-700 mb-4">Reason for stopping their favourite game</h2>
           <p className="text-gray-800 leading-relaxed">
             What are the reasons they stopped playing their favourite game?
           </p>
@@ -142,36 +142,10 @@ function App() {
       </div>
       <br />
       {/* Content Section :2*/}
-      <div className="max-w-5xl mx-auto p-8 bg-gradient-to-br from-blue-100 to-white shadow-2xl rounded-xl flex flex-col md:flex-row items-center gap-8">
-        {/* Image Section */}
-        <div className="md:w-1/2 p-4">
-          <img
-            src="./AgeDis.jpeg"
-            alt="Distribution of Age vs Gaming Frequency"
-            className="w-full rounded-lg shadow-lg transform transition-transform duration-300 hover:scale-125 hover:shadow-xl border-4 border-blue-500"
-          />
-        </div>
-        
-        {/* Text Section */}
-        <div className="md:w-1/2 p-4">
-          <h2 className="text-3xl font-bold text-blue-700 mb-4">Survey on Gaming Frequency Among Students</h2>
-          <p className="text-gray-800 leading-relaxed">
-            This survey was conducted among students in my college to analyze the distribution of age groups 
-            and their gaming frequency. Here are some key observations:
-          </p>
-          <ul className="list-disc list-inside text-gray-700 my-4 space-y-2">
-            <li className="hover:text-blue-600 transition-colors">The majority of students who play games fall within the 18-20 age range.</li>
-            <li className="hover:text-blue-600 transition-colors">The highest frequency is observed among 19-year-olds, followed by 20-year-olds.</li>
-            <li className="hover:text-blue-600 transition-colors">Very few students aged 21 and above engage in gaming.</li>
-            <li className="hover:text-blue-600 transition-colors">There is a significant drop in gaming frequency after the age of 20.</li>
-          </ul>
-        </div>
-
-        
-      </div>
+      
       <br />
       <div class="max-w-3xl mx-auto p-8 bg-gradient-to-br from-blue-100 to-white shadow-2xl rounded-xl">
-    <h2 class="text-3xl font-bold text-blue-700 mb-4">Survey on Gaming Frequency Among Students</h2>
+    <h2 class="text-3xl font-bold text-blue-700 mb-4">Gaming Frequency Among Students</h2>
     <p class="text-gray-800 leading-relaxed">
         The word cloud will help analyze which words are being used frequently when respondents talk about the qualities they envision in an ideal game. Through this we can try to implement these qualities in our game such that it majorly aligns with the interests of most of the respondents.
     </p>
@@ -186,7 +160,7 @@ function App() {
         
         {/* Text Section */}
         <div className="md:w-1/2 p-4">
-          <h2 className="text-3xl font-bold text-blue-700 mb-4">Survey on Gaming Frequency Among Students</h2>
+          <h2 className="text-3xl font-bold text-blue-700 mb-4"> Gaming Frequency Among Students</h2>
           <p className="text-gray-800 leading-relaxed">
           </p>
           <ul className="list-disc list-inside text-gray-700 my-4 space-y-2">
