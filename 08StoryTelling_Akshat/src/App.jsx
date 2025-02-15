@@ -160,7 +160,7 @@ function App() {
         
         {/* Text Section */}
         <div className="md:w-1/2 p-4">
-          <h2 className="text-3xl font-bold text-blue-700 mb-4"> Gaming Frequency Among Students</h2>
+          <h2 className="text-3xl font-bold text-blue-700 mb-4"> Do games help in removing stress ❓</h2>
           <p className="text-gray-800 leading-relaxed">
           </p>
           <ul className="list-disc list-inside text-gray-700 my-4 space-y-2">
