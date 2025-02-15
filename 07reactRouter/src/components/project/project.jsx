@@ -131,7 +131,7 @@ function Project() {
 
         <p class="mb-4">
             Our survey data provides valuable insights into how students at IIT Bhilai use the gym. 
-            The graphs and histograms reveal interesting trends about gym visits, satisfaction levels, and preferences.
+            The graphs, histograms,heatmaps , scatterplots reveal interesting trends about gym visits, satisfaction levels, and preferences.
         </p>
 
             {charts.year && (
@@ -345,13 +345,45 @@ function Project() {
                 <h2 className="text-2xl font-bold text-gray-800 mb-4">Equipment Satisfaction Scatter plot</h2>
                 <img src="/Scatter1.png" alt="Heat Map" className="h-80 w-auto rounded-lg border-2 border-gray-300 shadow-md" />
                 </div>
+                <div className="mt-6 p-6 bg-white border-l-4 border-blue-500 rounded-lg shadow-lg">
+    <h2 className="text-2xl font-medium text-blue-600 mt-4">
+        Observations from Equipment Satisfaction Scatter Plot 🥇:
+    </h2>
+    <ul className="list-disc list-inside text-gray-700">
+        <li>
+            The satisfaction scores range from 1 to 5, with most responses clustering around <strong>3 to 5</strong>.
+        </li>
+        <li>
+            Higher satisfaction (4-5) is more frequent among users who visit the gym <strong>4-5 times a week</strong>.
+        </li>
+        <li>
+            Users who visit the gym <strong>occasionally or daily</strong> have a wider spread of ratings, including lower satisfaction scores.
+        </li>
+        <li>
+            Very few users rated satisfaction as <strong>1</strong>, indicating that most users are at least somewhat satisfied with the equipment.
+        </li>
+
+        </ul>
+    </div>
                     </div>
                     <div>
                     <div className="flex flex-col items-center justify-center my-10 p-5 bg-gray-100 rounded-lg shadow-lg">
                 <h2 className="text-2xl font-bold text-gray-800 mb-4">Equipment Satisfaction Scatter plot</h2>
                 <img src="/Scatter2.png" alt="Heat Map" className="h-80 w-auto rounded-lg border-2 border-gray-300 shadow-md" />
                 </div>
+                <div class="mt-6 p-6 bg-white border-l-4 border-blue-500 rounded-lg shadow-lg">
+    <h2 class="text-2xl font-medium text-blue-600 mt-4">Observations</h2>
+    <ul class="list-disc list-inside text-gray-700 space-y-2">
+        <li>Most users who spend more than 60 minutes in the gym have a high satisfaction level (4-5).</li>
+        <li>Users who spend 30-60 minutes in the gym have varied satisfaction levels, with many rating between 3 and 4.</li>
+        <li>Users who spend less than 30 minutes in the gym tend to have lower satisfaction ratings.</li>
+        <li>There is a slight clustering of ratings at extreme values (1 and 5), indicating strong opinions.</li>
+        <li>The majority of responses fall between ratings of 2 and 4, suggesting mixed feedback on gym equipment.</li>
+    </ul>
+</div>
+
                     </div>
+                    <br></br>
 
                     
                     <div>
