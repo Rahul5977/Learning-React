@@ -15,9 +15,18 @@ function Github() {
 
     return (
         <>
-            <div className="bg-gray-600 text-white p-4 text-3xl">
-                Github followers: {data.followers !== undefined ? data.followers : "Loading..."}
-                <img src={data.avatar_url} alt="me"  width ={300}/>
+           
+            <div className="size-50">
+
+            <img src={data.avatar_url} alt="me"  width ={300}/>
+            </div>
+            <div className="bg-gray-600 text-white p-4 text-3xl w-auto">
+                 Followers: {data.followers !== undefined ? data.followers : "Loading..."}
+                 
+            </div>
+            <div className="bg-gray-600 text-white p-4 text-3xl w-auto">
+                 Following: {data.following !== undefined ? data.following : "Loading..."}
+                 
             </div>
         </>
     );

@@ -19,7 +19,7 @@ export default function About() {
               <li><strong>JEE Mains:</strong> 99.29 percentile</li>
               <li><strong>JEE Advanced:</strong> AIR 5977</li>
               <li><strong>Sole IIT entrant</strong> from my school</li>
-              <li><strong>3-star coder</strong> on CodeChef</li>
+              <li><strong>2-star coder</strong> on CodeChef</li>
               <li><strong>350+ problems solved</strong> on LeetCode</li>
               <li><strong>Winner</strong> of Code Crusade (Intra-college coding competition)</li>
               <li>Enjoys <strong>Data & Development</strong> challenges</li>

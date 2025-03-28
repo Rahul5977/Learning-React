@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link, NavLink } from 'react-router-dom'
-// import logo from '07reactRouter/src/assets/LOGO.jpg'
 
 export default function Header() {
     return (
@@ -15,18 +14,18 @@ export default function Header() {
                         />
                     </Link>
                     <div className="flex items-center lg:order-2">
-                        <Link
+                        {/* <Link
                             to="#"
                             className="text-gray-800 hover:bg-gray-50 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 focus:outline-none"
                         >
                             Log in
-                        </Link>
-                        <Link
+                        </Link> */}
+                        {/* <Link
                             to="#"
                             className="text-white bg-orange-700 hover:bg-orange-800 focus:ring-4 focus:ring-orange-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 focus:outline-none"
                         >
                             Get started
-                        </Link>
+                        </Link> */}
                     </div>
                     <div
                         className="hidden justify-between items-center w-full lg:flex lg:w-auto lg:order-1"
@@ -73,7 +72,7 @@ export default function Header() {
                                     Github
                                 </NavLink>
                             </li>
-                            <li>
+                            {/* <li>
                                 <NavLink
                                      to="/project"
                                     className={({ isActive }) =>
@@ -82,7 +81,7 @@ export default function Header() {
                                 >
                                     Project
                                 </NavLink>
-                            </li>
+                            </li> */}
 
                         </ul>
                     </div>
