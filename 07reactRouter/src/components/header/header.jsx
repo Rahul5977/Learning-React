@@ -72,7 +72,7 @@ export default function Header() {
                                     Github
                                 </NavLink>
                             </li>
-                            {/* <li>
+                            <li>
                                 <NavLink
                                      to="/project"
                                     className={({ isActive }) =>
@@ -81,7 +81,7 @@ export default function Header() {
                                 >
                                     Project
                                 </NavLink>
-                            </li> */}
+                            </li>
 
                         </ul>
                     </div>
